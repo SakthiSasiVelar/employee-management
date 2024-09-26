@@ -1,0 +1,54 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "John",
+      "position": "Frontend Engineer",
+      "image_url": "https://png.pngtree.com/png-clipart/20200224/original/pngtree-male-avatar-simple-cartoon-design-png-image_5230556.jpg",
+      "latitude": "51.505",
+      "longitude": "-0.09"
+    },
+    {
+      "id": "2",
+      "name": "Jacob",
+      "position": "Backend Engineer",
+      "image_url": "https://png.pngtree.com/png-clipart/20200224/original/pngtree-male-avatar-simple-cartoon-design-png-image_5230556.jpg",
+      "latitude": "51.505",
+      "longitude": "-0.09"
+    },
+    {
+      "id": "3",
+      "name": "James",
+      "position": "Product Manager",
+      "image_url": "https://png.pngtree.com/png-clipart/20200224/original/pngtree-male-avatar-simple-cartoon-design-png-image_5230556.jpg",
+      "latitude": "51.505",
+      "longitude": "-0.09"
+    },
+    {
+      "id": "4",
+      "name": "Ryan",
+      "position": "CEO",
+      "image_url": "https://png.pngtree.com/png-clipart/20200224/original/pngtree-male-avatar-simple-cartoon-design-png-image_5230556.jpg",
+      "latitude": "51.505",
+      "longitude": "-0.09"
+    },
+    {
+      "id": "782d2af6-b184-40df-8bc4-2a49a86962f2",
+      "name": "sakthi",
+      "age": "22",
+      "position": "Backend Engineer",
+      "image_url": "https://png.pngtree.com/png-clipart/20200224/original/pngtree-male-avatar-simple-cartoon-design-png-image_5230556.jpg",
+      "latitude": "51.505",
+      "longitude": "-0.09"
+    },
+    {
+      "id": "2ca45961-3396-4ca9-a10a-78db1f1c8b26",
+      "name": "sachin",
+      "age": "22",
+      "position": "Frontend Engineer",
+      "image_url": "https://png.pngtree.com/png-clipart/20200224/original/pngtree-male-avatar-simple-cartoon-design-png-image_5230556.jpg",
+      "latitude": "51.505",
+      "longitude": "-0.09"
+    }
+  ]
+}

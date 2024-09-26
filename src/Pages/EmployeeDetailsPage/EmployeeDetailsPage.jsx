@@ -1,14 +1,13 @@
 import { useParams } from "react-router-dom";
 import useFilter from "../../Hooks/useFilter";
-import { useContext } from "react";
-import EmployeeContext from "../../Contexts/EmployeeContext";
 import EmployeeDetails from "../../Components/EmployeeDetails/EmployeeDetails";
+import { useGetEmployees } from "../../Queries/employeeQueries";
 
 
 
 function EmployeeDetailsPage(){
     const {employeeId} = useParams();
-    const {employees } = useContext(EmployeeContext);
+    const {data:employees} = useGetEmployees();
     const employee = useFilter(employees , employeeId);
 
     return (

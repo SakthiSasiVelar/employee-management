@@ -5,7 +5,7 @@ const AddEmployeeForm = ({handleFormSubmit , handleCancel}) => {
   const [formData, setFormData] = useState({
     name: '',
     age: '',
-    role: ''
+    position: ''
   });
 
   const handleChange = (e) => {
@@ -20,7 +20,7 @@ const AddEmployeeForm = ({handleFormSubmit , handleCancel}) => {
      setFormData({
         name: '',
         age: '',
-        role: ''
+        position: ''
      })
    }
 
@@ -70,15 +70,17 @@ const AddEmployeeForm = ({handleFormSubmit , handleCancel}) => {
         />
       </div>
       <div>
-        <select name="role" value={formData.role} onChange={handleChange} className={Styles.input_box}>
+        <select name="position" value={formData.position} onChange={handleChange} className={Styles.input_box}>
           <option  disabled value=''>Select the position</option>
           <option value="Frontend Engineer">Frontend Engineer</option>
           <option value="Backend Engineer">Backend Engineer</option>
           <option value="Product Manager">Product Manager</option>
         </select>
       </div>
-      <button type="submit" className={Styles.button}>Submit</button>
-     <button type="button" onClick={handleFormCancel} className={Styles.button}>Cancel</button>
+      <div className={Styles.btn_container}>
+      <button type="submit" className={`${Styles.button} ${Styles.submit_button}`}>Submit</button>
+      <button type="button" onClick={handleFormCancel} className={`${Styles.button} ${Styles.cancel_button}`}>Cancel</button>
+      </div> 
     </form> 
   ); 
 };
