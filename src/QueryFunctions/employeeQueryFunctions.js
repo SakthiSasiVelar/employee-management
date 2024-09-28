@@ -5,9 +5,8 @@ export const getEmployees = async () => {
         const response = await employeeService.getAllEmployees();
         return response.data ; 
     }
-    catch(error){
-        console.log(error);
-        return error;
+    catch(error){         
+        throw error;
     }
 }
 
@@ -18,7 +17,6 @@ export const postEmployee = async (postData) => {
         return response.data;
     }
     catch(error){
-        console.log(error);
-        return error;
+        throw error;
     }
 }

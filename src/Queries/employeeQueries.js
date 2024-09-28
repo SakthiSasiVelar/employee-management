@@ -5,7 +5,8 @@ import { getEmployees, postEmployee } from "../QueryFunctions/employeeQueryFunct
 export const useGetEmployees = () => {
     return useQuery({
         queryFn : getEmployees,
-        queryKey: ['Employee']
+        queryKey: ['Employee'],
+        retry:false
 
     })
 }
